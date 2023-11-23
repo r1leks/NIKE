@@ -2,6 +2,7 @@
     --header-color: #012D63 ;
     --fff-color: white;
     --header-color-text: #C7C7C7;
+    --bg-button: #8E32C6;
 }
 
 .container{
@@ -13,18 +14,21 @@
 .header{
     background-color: var(--header-color);
     
+    
 }
 
 .nav-list{
     display: flex;
     margin-top: 30px;
     margin-bottom: 33px;
+    
 }
 
 
 .nav-item{
     margin-left: 29px;
     font-size: 24px;
+   
     
 }
 
@@ -41,12 +45,15 @@
 .header-wrap{
     display: flex;
     align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .header-paragraf{
     color: var(--header-color-text);
     font-family: Roboto;
     font-size: 24px;
+    margin-left: 73px;
 }
 
 .header-span{
@@ -56,22 +63,89 @@
 .header-logo{
     width: 100px;
     height: 60px;
+    margin-right: 112px;
+
 }
 
 .header-list{
     margin-left: 37px;
-    display: flex;
+    
 }
 
 .header-item{
     
 }
 
+.container-hero{
+    
+}
+
 .hero{
-    background-image: url();
+    background-image: url(/img/main_bg.webp);
     margin-left: auto;
     margin-right: auto;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    width: 1440px;
+    height: 858px;
+}
+
+.hero-img{
+    margin-top: 91px;
+    width: 160px;
+    height: 120px;
+}
+.hero-text{
+    width: 178px;
+    height: 86px;
+    color: var(--fff-color);
+    font-weight: 400;
+    font-family: PT Serif;
+    font-size: 48px;
+    margin-top: -32px;
+    margin-left: 25px;
+}
+
+.hero-title{
+    font-size: 144px;
+    color: var(--fff-color);
+    font-family: Playfair Display;
+    font-size: 144px;
+    font-weight: 400;
+    margin-bottom: -18px;
+}
+
+.hero-title1{
+    font-family: Playfair Display;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--fff-color);
+}
+
+.hero-text1{
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--fff-color);
+    margin-top: 12px;
+    margin-bottom: 41px;
+}
+
+.button-hero{
+    border-radius: 10px;
+    background: var(--bg-button);
+    width: 254px;
+    height: 67px;
+    border: none;
+}
+
+.button-hero-text{
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    color: var(--fff-color);
 }
