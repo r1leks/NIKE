@@ -3,6 +3,7 @@
     --fff-color: white;
     --header-color-text: #C7C7C7;
     --bg-button: #8E32C6;
+    --span-color: #D8D8D8;
 }
 
 .container{
@@ -149,3 +150,99 @@
     font-weight: 400;
     color: var(--fff-color);
 }
+
+.benefits-title{
+    color: var(--fff-color);
+    text-align: center;
+    font-family: Playfair Display;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.reviews-text{
+    font-family: Roboto;
+    font-size: 24px;
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.wrap-reviews{
+    color: var(--span-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.reviews-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFF;
+    font-size: 14px;
+    
+}
+
+.title-order{
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.button-order{
+    border-radius: 16px;
+    background: var(--bg-button);
+    width: 248px;
+    height: 68px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    border: none;
+}
+
+.footer-text{
+    color: var(--fff-color);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.footer-link{
+    color: var(--fff-color);
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text-footer1{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.button-logo{
+    color: var(--fff-color);
+    font-family: PT Serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+.footer{
+    background: #021635;
+    width: 1440px;
+}
+
