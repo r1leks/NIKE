@@ -417,13 +417,14 @@ font-family: PT Serif;
     background-color: var(--footer-bg);
     padding-top: 45px;
     padding-bottom: 45px;
+    
 }
 
 .footer-wrap {
     display: flex;
     justify-content: space-between;
     padding-bottom: 20px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid var(--fff-color);
     margin-bottom: 20px;
 }
 
@@ -433,16 +434,27 @@ font-family: PT Serif;
 }
 
 .footer-text {
-    color: #FFF;
+    color: var(--fff-color);
     font-size: 24px;
     margin-bottom: 10px;
+    font-family: Roboto;
+
+}
+
+.footer-text-two{
+    color: var(--fff-color);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 7px;
 }
 
 .footer-email {
-    color: #FFF;
+    color: var(--fff-color);
     font-size: 24px;
     text-decoration-line: underline;
     margin-bottom: 10px;
+    font-family: Roboto;
 }
 
 .footer-wrapper {
@@ -455,7 +467,7 @@ font-family: PT Serif;
 }
 
 .footer-title {
-    color: #FFF;
+    color: var(--fff-color);
     font-size: 24px;
     font-family: 'PT Serif', serif;
     text-align: right;
