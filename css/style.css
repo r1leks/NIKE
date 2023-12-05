@@ -113,21 +113,21 @@
 .hero-title{
     font-size: 144px;
     color: var(--fff-color);
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-size: 144px;
     font-weight: 400;
     margin-bottom: -18px;
 }
 
 .hero-title1{
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-size: 72px;
     font-weight: 400;
     color: var(--fff-color);
 }
 
 .hero-text1{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: var(--fff-color);
@@ -136,11 +136,11 @@
 }
 
 .button-hero{
+    font-family: 'Roboto', sans-serif;
     border-radius: 10px;
     background: var(--bg-button);
     padding: 20px 61px;
     border: none;
-    font-family: Roboto;
     font-size: 24px;
     font-weight: 400;
     color: var(--fff-color);
@@ -149,7 +149,7 @@
 }
 
 .button-hero-text{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 400;
     color: var(--fff-color);
@@ -190,7 +190,7 @@
 .benefits-title{
     color: var(--fff-color);
     text-align: center;
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-size: 36px;
     font-weight: 400;
 }
@@ -221,7 +221,7 @@
 }
 
 .reviews-text{
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     color: #FFF;
     font-weight: 400;
@@ -252,7 +252,7 @@
 
 .span-reviews{
     color: var(--span-color);
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
@@ -287,7 +287,7 @@
 
 .wrap-reviews{
     color: #D8D8D8;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 12px;
     font-weight: 400;
 }
@@ -295,7 +295,7 @@
 .reviews-title-one{
     color: var(--fff-color);
     text-align: center;
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-size: 48px;
     font-weight: 400;
     padding-top: 25px;
@@ -314,7 +314,7 @@
 
 .reviews-title{
     color: var(--fff-color);
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
     font-weight: 400;
 
@@ -332,7 +332,7 @@
 
 .title-order{
     color: var(--fff-color);
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-size: 48px;
     font-weight: 400;
     text-align: center;
@@ -355,7 +355,7 @@
 
 .input-order{
     color: var(--input-color);
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 28px;
     font-weight: 400;
     border-radius: 50px;
@@ -392,7 +392,7 @@
 
 /* 
 font-family: Roboto; 
-font-family: Playfair Display;
+font-family: 'Playfair Display', serif;
 font-family: PT Serif;
 */
 
@@ -404,7 +404,7 @@ font-family: PT Serif;
     width: 248px;
     height: 68px;
     color: var(--fff-color);
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-size: 24px;
     font-weight: 400;
     border: none;
@@ -450,12 +450,20 @@ font-family: PT Serif;
     margin-bottom: 7px;
 }
 
+/*
+ font-family: 'Playfair Display',serif;
+
+font-family: 'PT Serif',serif;
+
+font-family: 'Roboto',sans-serif; 
+*/
+
 .footer-email {
     color: var(--fff-color);
     font-size: 24px;
     text-decoration-line: underline;
     margin-bottom: 10px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
 }
 
 .footer-wrapper {
