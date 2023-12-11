@@ -6,6 +6,7 @@
     --span-color: #D8D8D8;
     --footer-bg: #021635;
     --input-color: #959595;
+    --button-hover: rgb(155, 5, 135);
 }
 
 .container{
@@ -146,6 +147,10 @@
     color: var(--fff-color);
     cursor: pointer;
     padding: 20px 61px;
+}
+
+.button-hero:hover{
+    background-color: var(--button-hover);
 }
 
 .button-hero-text{
@@ -411,6 +416,10 @@ font-family: PT Serif;
     cursor: pointer;
     margin-bottom: 37px;
     margin-top: 19px;
+}
+
+.button-order:hover{
+    background-color: var(--button-hover);
 }
 
 
