@@ -212,7 +212,7 @@
 }
 
 .reviews{
-    background-image: url(../img/flowers.webp) , url(../img/reviews_bg.jpg) ;
+    background-image: url(../img/flowers.webp), url(../img/reviews_bg.jpg) ;
     background-repeat: no-repeat, no-repeat;
     background-position:bottom left, center ;
     background-size: 240px, cover ;
